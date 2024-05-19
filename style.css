@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    width: auto;
+    height: 70px;
+    background-color: rgb(44, 2, 83);
+    color: white;
+    display: flex;
+    justify-content: right;
+    gap: 60px;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    
+    
+}
+.header p{
+    font-size: 60px;
+    text-align: left;
+    
+}
+.hey{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(163, 44, 163);
+}
+
