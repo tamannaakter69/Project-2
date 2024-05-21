@@ -15,6 +15,7 @@
     text-align: center;
     font-size: 30px;
     padding: 12px;
+    ;
     
     
 }
@@ -26,6 +27,94 @@
 .hey{
     text-align: center;
     font-size: 70px;
-    color: rgb(163, 44, 163);
+    color: whitesmoke;
+    background-color: rgb(44, 2, 83);
+
+}
+.box{
+    width: 210px;
+    height: 210px;
+    background-color: rgb(44, 6, 97);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: beige;
+    border-radius: 50%;
 }
 
+.parent-box{
+    background: rgb(102, 16, 182);
+    width: auto;
+    padding-top: 20px;
+    height: 300px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+
+}
+.home{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+.introduction{
+    width: 500px;
+    height: 380px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: rgb(4, 22, 62);
+    color: whitesmoke;
+    border-radius: 7px;
+    transition-timing-function: ease;
+    transition: 5s;
+    
+}
+.introduction:hover{
+    transform:translate(700px) ;
+}
+.sk{
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.box1 {
+    width: 400px;
+    height: 200px;
+    background-color: #ff00ae;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 33px;
+    margin: 25px;
+}
+.parent-box1{
+    width: 100%;
+    background-color: #1be858;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.pro{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+.pro-div{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(64, 187, 236);
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 33px;
+    border-radius: 7px;
+    box-shadow: 10px;
+}
+.icons{
+   font-size: 50px;
+   text-align: center;
+   margin-top: 25px;
+}
